@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Oxanium', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background: #76B900;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+.navbar.hidden {
+    transform: translateY(-100%);
+}
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.navbar a:hover {
+    color: #ffa500;
+}
+.container {
+    max-width: 800px;
+    margin: 60px auto 0 auto;
+    padding: 20px;
+}
+h1, h2 {
+    text-align: center;
+    color: #76B900;
+    text-shadow: 2px 2px 8px rgba(118, 185, 0, 0.7);
+}
+.profile-photo {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.bio-info {
+    text-align: center;
+    margin-top: 20px;
+}
+.bio-info p {
+    margin: 10px 0;
+}
+a {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #ffa500;
+}
+.game-list {
+    margin-top: 40px;
+}
+.game-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease; 
+}
+
+.game-item:hover {
+    box-shadow: 0 0 15px 5px #76B900; 
+}
+
+.game-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.table th, .table td {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+}
+.table th {
+    background: #333;
+    color: #76B900;
+}
+.table td {
+    background: #222;
+}
