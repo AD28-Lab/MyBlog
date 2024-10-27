@@ -9,19 +9,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script src="script.js"></script>
+    </div>    
     <div class="navbar" id="navbar">
-        <a href="#home">Home</a>
-        <a href="#games">Games</a>
-        <a href="#about">About Me</a>
+        <!-- Toggle button on the left -->
+        <button id="toggle-mode" class="toggle-button">
+            <span id="mode-icon" class="dark-icon">🌙</span>
+        </button>
+        
+        <!-- Navbar links on the right -->
+        <div class="navbar-links">
+            <a href="#">Home</a> 
+            <a href="#games">Games</a>
+            <a href="#about">About Me</a>
+        </div>
     </div>
-    <div class="container">
+    
+    
+    
+    <div id="about" class="container">
         <img src="the-wind-rises-1.jpg" alt="Foto Profil" class="profile-photo">
         <div class="bio-info">
             <p>Halo, saya Aditya, mahasiswa Teknologi Informasi di Universitas Udayana. Saya tertarik pada teknologi, terutama pengembangan game. Saya percaya game bukan hanya hiburan, tetapi juga media untuk belajar dan berkreasi.</p>
         </div>
     </div>
     
-    <div class="container">
+   
+    <div id="games" class="container">
         <h1>5 Game Terbaik Versi Aditya Tustanda</h1>
         <h2>Game Favorit yang Menjadi Pengalaman Terbaik Saya</h2>
 
@@ -189,10 +203,8 @@
         window.addEventListener('scroll', () => {
             let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
             if (scrollTop > lastScrollTop) {
-                
                 navbar.classList.add('hidden');
             } else {
-               
                 navbar.classList.remove('hidden');
             }
             lastScrollTop = scrollTop;
@@ -200,3 +212,8 @@
     </script>
 </body>
 </html>
+
+
+
+
+
