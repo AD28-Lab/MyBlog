@@ -6,6 +6,12 @@ body {
     margin: 0;
 }
 
+/* Smooth scroll effect for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* Navbar styling */
 .navbar {
     display: flex;
@@ -204,3 +210,40 @@ body.light-mode #mode-icon {
     font-size: 0.9em;
     transition: all 0.3s;
 }
+/* Styling for Join Section Title */
+.join-title {
+    color: #76B900;
+    font-size: 24px;
+    font-family: 'Oxanium', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(118, 185, 0, 0.7);
+}
+
+.join-button {
+    background-color: #76B900;
+    color: white;
+    padding: 10px 20px; /* Padding untuk ukuran tombol */
+    font-size: 16px;
+    font-family: 'Oxanium', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block; /* Menghindari tombol melebar */
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 20px auto; /* Pusatkan tombol */
+}
+
+.join-button:hover {
+    background-color: #5a8c00;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(118, 185, 0, 0.7);
+}
+#join-section {
+    text-align: center;
+}
+
+
