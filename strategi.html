@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible=IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Action Games</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Aditya Game Blog</div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#games">Games</a></li>
+            <li><a href="index.html#contact">Contact Me</a></li>
+            <li><a href="index.html#join">Join Me</a></li>
+        </ul>
+    </nav>
+    
+    <header class="hero-section">
+        <h1>Top 3 Strategy Games</h1>
+    </header>
+    <main class="article-content">
+        <section class="game-list">
+            <div class="game-entry">
+                <h2>Homeworld 3</h2>
+                <img src="strategi1.jpeg" alt="Game 1 Image">
+                <p>Homeworld 3 adalah sekuel yang telah lama dinantikan dari seri Homeworld, menawarkan pertempuran luar angkasa dengan grafis yang memukau dan mekanika permainan yang mendalam. Pemain mengendalikan armada kapal luar angkasa dalam pertempuran taktis tiga dimensi, menghadapi tantangan strategis yang kompleks. Game ini menambahkan elemen medan seperti bangkai kapal dan asteroid, memberikan kedalaman taktis baru dalam pertempuran. 
+                </p>
+            </div>
+            <div class="game-entry">
+                <h2>Frostpunk 2</h2>
+                <img src="strategi2.jpeg" alt="Game 2 Image">
+                <p>Frostpunk 2 melanjutkan kisah kota terakhir di Bumi yang berjuang untuk bertahan hidup di tengah cuaca ekstrem. Sebagai pemimpin, pemain harus membuat keputusan sulit untuk memastikan kelangsungan hidup penduduk, mengelola sumber daya, dan menghadapi tantangan moral. Game ini memperkenalkan dinamika baru dalam manajemen kota dan konflik sosial, menambah kedalaman strategi dan narasi. </p>
+            </div>
+            <div class="game-entry">
+                <h2>Age of Mythology: Retold</h2>
+                <img src="strategi3.jpeg" alt="Game 3 Image">
+                <p>Age of Mythology: Retold adalah versi remaster dari klasik RTS yang menggabungkan mitologi dengan strategi real-time. Pemain dapat memilih peradaban mitologis seperti Yunani, Mesir, atau Norse, dan menggunakan kekuatan dewa serta makhluk mitos dalam pertempuran. Versi ini menghadirkan grafis yang ditingkatkan dan gameplay yang disempurnakan, memberikan pengalaman baru bagi penggemar lama dan pemain baru.</p>
+        </section>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.querySelector('.navbar');
+    
+            // Tambahkan event listener untuk toggle
+            document.querySelector('.toggle-button').addEventListener('click', function() {
+                navbar.classList.toggle('toggle-green');
+    
+                // Ubah warna teks di navbar saat di-toggle
+                document.querySelectorAll('.nav-links a').forEach(link => {
+                    link.classList.toggle('toggle-green');
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>

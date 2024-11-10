@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible=IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Action Games</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Aditya Game Blog</div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#games">Games</a></li>
+            <li><a href="index.html#contact">Contact Me</a></li>
+            <li><a href="index.html#join">Join Me</a></li>
+        </ul>
+    </nav>
+    
+    <header class="hero-section">
+        <h1>Top 3 Relaxed Games</h1>
+    </header>
+    <main class="article-content">
+        <section class="game-list">
+            <div class="game-entry">
+                <h2>Stardew Valley</h2>
+                <img src="santai1.jpeg" alt="Game 1 Image">
+                <p>Stardew Valley adalah game simulasi pertanian di mana pemain mewarisi lahan pertanian yang terbengkalai dan bertugas mengembangkannya. Selain bertani, pemain dapat memancing, menambang, berinteraksi dengan penduduk desa, dan menjelajahi berbagai aktivitas lainnya. Grafis pixel art yang menawan dan musik yang menenangkan menjadikan game ini pilihan ideal untuk relaksasi. </p>
+            </div>
+            <div class="game-entry">
+                <h2>Animal Crossing: New Horizons</h2>
+                <img src="santai2.jpeg" alt="Game 2 Image">
+                <p>Dalam Animal Crossing: New Horizons, pemain pindah ke pulau terpencil dan membangun komunitas dari awal. Game ini menawarkan berbagai aktivitas seperti berkebun, memancing, menangkap serangga, dan mendekorasi rumah serta pulau sesuai keinginan. Dengan grafis yang cerah dan suasana yang damai, game ini memberikan pengalaman bermain yang santai dan menyenangkan. /p>
+            </div>
+            <div class="game-entry">
+                <h2>Journey</h2>
+                <img src="santai3.jpeg" alt="Game 3 Image">
+                <p>Journey adalah game petualangan yang menekankan eksplorasi dan pengalaman emosional. Pemain mengendalikan karakter berjubah yang melakukan perjalanan melintasi gurun menuju gunung yang jauh. Tanpa dialog atau teks, game ini mengandalkan visual yang memukau dan musik yang indah untuk menyampaikan cerita dan emosi, menciptakan pengalaman yang mendalam dan menenangkan.</p>
+        </section>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.querySelector('.navbar');
+    
+            // Tambahkan event listener untuk toggle
+            document.querySelector('.toggle-button').addEventListener('click', function() {
+                navbar.classList.toggle('toggle-green');
+    
+                // Ubah warna teks di navbar saat di-toggle
+                document.querySelectorAll('.nav-links a').forEach(link => {
+                    link.classList.toggle('toggle-green');
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>

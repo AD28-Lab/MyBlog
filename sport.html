@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible=IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Action Games</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Aditya Game Blog</div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#games">Games</a></li>
+            <li><a href="index.html#contact">Contact Me</a></li>
+            <li><a href="index.html#join">Join Me</a></li>
+        </ul>
+    </nav>
+    
+    <header class="hero-section">
+        <h1>Top 3 Sport Games</h1>
+    </header>
+    <main class="article-content">
+        <section class="game-list">
+            <div class="game-entry">
+                <h2>EA Sports FC 24</h2>
+                <img src="sport1.jpeg" alt="Game 1 Image">
+                <p>Setelah berakhirnya kemitraan panjang dengan FIFA, EA Sports merilis EA Sports FC 24 sebagai penerus seri sepak bola mereka. Game ini menawarkan peningkatan grafis yang signifikan, mekanika permainan yang lebih halus, dan mode karier yang lebih mendalam. Dengan lisensi resmi dari berbagai liga dan klub, pemain dapat menikmati pengalaman sepak bola yang autentik dan imersif.</p>
+            </div>
+            <div class="game-entry">
+                <h2>NBA 2K25</h2>
+                <img src="sport2.jpeg" alt="Game 2 Image">
+                <p>NBA 2K25 melanjutkan tradisi seri dengan menghadirkan simulasi bola basket yang realistis. Game ini menampilkan grafis yang ditingkatkan, animasi pemain yang lebih halus, dan mode permainan yang beragam, termasuk MyCareer dan MyTeam. Dengan roster pemain yang diperbarui dan fitur online yang ditingkatkan, NBA 2K25 menawarkan pengalaman bola basket yang mendalam bagi penggemar.</p>
+            </div>
+            <div class="game-entry">
+                <h2>College Football 25</h2>
+                <img src="sport3.jpeg" alt="Game 3 Image">
+                <p>Setelah absen selama lebih dari satu dekade, EA Sports kembali dengan College Football 25, menghadirkan kembali semangat sepak bola perguruan tinggi. Game ini menawarkan mode Dynasty yang diperbarui, memungkinkan pemain mengelola tim mereka dari rekrutmen hingga kejuaraan. Dengan atmosfer stadion yang autentik dan gameplay yang disempurnakan, College Football 25 menjadi sorotan di genre game olahraga tahun ini.</p>
+        </section>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.querySelector('.navbar');
+    
+            // Tambahkan event listener untuk toggle
+            document.querySelector('.toggle-button').addEventListener('click', function() {
+                navbar.classList.toggle('toggle-green');
+    
+                // Ubah warna teks di navbar saat di-toggle
+                document.querySelectorAll('.nav-links a').forEach(link => {
+                    link.classList.toggle('toggle-green');
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>

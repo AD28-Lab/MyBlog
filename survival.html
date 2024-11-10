@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible=IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Action Games</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Aditya Game Blog</div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#games">Games</a></li>
+            <li><a href="index.html#contact">Contact Me</a></li>
+            <li><a href="index.html#join">Join Me</a></li>
+        </ul>
+    </nav>
+    
+    <header class="hero-section">
+        <h1>Top 3 Survival Games</h1>
+    </header>
+    <main class="article-content">
+        <section class="game-list">
+            <div class="game-entry">
+                <h2>Palworld</h2>
+                <img src="survival1.jpeg" alt="Game 1 Image">
+                <p>Palworld adalah game survival unik yang menggabungkan elemen penangkapan makhluk mirip Pokémon dengan mekanika crafting dan pertempuran. Pemain dapat menjelajahi dunia terbuka, menangkap makhluk yang disebut 'Pals', dan menggunakan mereka dalam pertempuran atau sebagai tenaga kerja untuk membangun berbagai struktur. Game ini menawarkan pengalaman bermain yang segar dengan grafis yang cerah dan gameplay yang mendalam.</p>
+            </div>
+            <div class="game-entry">
+                <h2>Enshrouded</h2>
+                <img src="survival2.jpeg" alt="Game 2 Image">
+                <p>Enshrouded adalah game survival yang berlatar di dunia fantasi yang diselimuti kabut mematikan. Pemain berperan sebagai 'Flameborn' yang bertugas membersihkan dunia dari korupsi. Game ini menawarkan elemen crafting, pembangunan basis, dan pertempuran melawan berbagai makhluk berbahaya. Dengan grafis yang memukau dan mekanika permainan yang kompleks, Enshrouded memberikan pengalaman survival yang menantang dan memuaskan. 
+                </p>
+            </div>
+            <div class="game-entry">
+                <h2>Sons of the Forest</h2>
+                <img src="survival3.jpeg" alt="Game 3 Image">
+                <p>Sons of the Forest adalah sekuel dari game survival horor populer The Forest. Pemain ditugaskan untuk mencari miliarder yang hilang di pulau terpencil yang dihuni oleh kanibal dan makhluk mutan. Game ini menawarkan elemen crafting, pembangunan tempat berlindung, dan pertempuran yang intens. Dengan grafis yang ditingkatkan dan AI musuh yang lebih cerdas, Sons of the Forest memberikan pengalaman survival horor yang mendalam dan menegangkan.</p>
+        </section>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.querySelector('.navbar');
+    
+            // Tambahkan event listener untuk toggle
+            document.querySelector('.toggle-button').addEventListener('click', function() {
+                navbar.classList.toggle('toggle-green');
+    
+                // Ubah warna teks di navbar saat di-toggle
+                document.querySelectorAll('.nav-links a').forEach(link => {
+                    link.classList.toggle('toggle-green');
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>

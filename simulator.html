@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible=IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Action Games</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Aditya Game Blog</div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#games">Games</a></li>
+            <li><a href="index.html#contact">Contact Me</a></li>
+            <li><a href="index.html#join">Join Me</a></li>
+        </ul>
+    </nav>
+    
+    <header class="hero-section">
+        <h1>Top 3 Simulator Games</h1>
+    </header>
+    <main class="article-content">
+        <section class="game-list">
+            <div class="game-entry">
+                <h2>Microsoft Flight Simulator 2024</h2>
+                <img src="simulator1.jpeg" alt="Game 1 Image">
+                <p>Microsoft Flight Simulator 2024 menawarkan pengalaman terbang yang sangat realistis dengan grafis menakjubkan dan data dunia nyata. Pemain dapat menjelajahi berbagai lokasi di seluruh dunia, dari kota besar hingga pedesaan terpencil, dengan detail yang luar biasa. Game ini juga menyediakan berbagai jenis pesawat dan kondisi cuaca dinamis, memberikan pengalaman terbang yang mendalam dan autentik.</p>
+            </div>
+            <div class="game-entry">
+                <h2>Farming Simulator 22</h2>
+                <img src="simulator2.jpeg" alt="Game 2 Image">
+                <p>Farming Simulator 22 memungkinkan pemain merasakan kehidupan sebagai petani modern. Game ini menawarkan berbagai aktivitas pertanian seperti menanam tanaman, beternak hewan, dan mengelola sumber daya. Dengan grafis yang ditingkatkan dan mekanika permainan yang realistis, pemain dapat mengoperasikan berbagai mesin pertanian dari merek terkenal dan mengelola lahan pertanian mereka sendiri.</p>
+            </div>
+            <div class="game-entry">
+                <h2>Cities: Skylines 2</h2>
+                <img src="simulator3.jpeg" alt="Game 3 Image">
+                <p>Cities: Skylines 2 adalah game simulasi pembangunan kota yang memungkinkan pemain merancang dan mengelola kota impian mereka. Dengan sistem yang lebih kompleks dan AI yang lebih cerdas, pemain dapat mengatur infrastruktur, transportasi, dan layanan publik untuk memastikan kesejahteraan penduduk. Game ini menawarkan kebebasan kreatif yang luas dan tantangan dalam mengatasi masalah perkotaan.</p>
+        </section>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.querySelector('.navbar');
+    
+            // Tambahkan event listener untuk toggle
+            document.querySelector('.toggle-button').addEventListener('click', function() {
+                navbar.classList.toggle('toggle-green');
+    
+                // Ubah warna teks di navbar saat di-toggle
+                document.querySelectorAll('.nav-links a').forEach(link => {
+                    link.classList.toggle('toggle-green');
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>

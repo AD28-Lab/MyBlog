@@ -2,225 +2,227 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible=IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blogweb</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <title>Aditya Game Blog</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <script src="script.js"></script>
-    </div>    
-    <div class="navbar" id="navbar">
-        <!-- Toggle button on the left -->
-        <button id="toggle-mode" class="toggle-button">
-            <span id="mode-icon" class="dark-icon">🌙</span>
-        </button>
-        
-        <!-- Navbar links on the right -->
-        <div class="navbar-links">
-            <a href="#">Home</a> 
-            <a href="#games">Games</a>
-            <a href="#about">About Me</a>
-            <a href="#join-section">Join</a>
-        </div>
-    </div>
-    
-    
-    
-    <div id="about" class="container">
-        <img src="the-wind-rises-1.jpg" alt="Foto Profil" class="profile-photo">
-        <div class="bio-info">
-            <p>Halo, saya Aditya, mahasiswa Teknologi Informasi di Universitas Udayana. Saya tertarik pada teknologi, terutama pengembangan game. Saya percaya game bukan hanya hiburan, tetapi juga media untuk belajar dan berkreasi.</p>
-        </div>
-    </div>
-    
-   
-    <div id="games" class="container">
-        <h1>5 Game Terbaik Versi Aditya Tustanda</h1>
-        <h2>Game Favorit yang Menjadi Pengalaman Terbaik Saya</h2>
-
-        <div class="game-list">
-            <div class="game-item">
-                <h3>1. God of War Ragnarok</h3>
-                <div class="game-content">
-                    <img src="gow.jpeg" alt="God of War Ragnarok">
-                    <p>God of War Ragnarok adalah salah satu game action terbaik dengan cerita epik yang mengikuti perjalanan Kratos dan Atreus. Game ini merupakan seri kelanjutan dari God of War 4, dan membawa cerita yang lebih dalam dan penuh emosi. Petualangan Kratos dan Atreus di dunia mitologi Norse memberikan pengalaman yang tak terlupakan, di mana mereka menghadapi tantangan dan musuh yang jauh lebih kuat. Setiap momen dalam game ini dipenuhi dengan aksi spektakuler dan cutscene yang dramatis, membuat pemain merasakan keterikatan emosional dengan karakter.
-                        <br><br>
-                        Selain itu, grafik yang disuguhkan dalam God of War Ragnarok benar-benar memukau. Setiap detail, mulai dari desain karakter 
-                        hingga lingkungan di sekitar, dibuat dengan sangat teliti dan realistis. Alur ceritanya juga sangat menarik, di mana konflik 
-                        internal antara Kratos dan Atreus membawa dimensi baru dalam hubungan ayah-anak. Gameplay-nya yang solid, dengan berbagai mekanik 
-                        pertarungan yang dinamis dan penuh variasi, memastikan bahwa tidak ada momen yang membosankan sepanjang permainan. Game ini berhasil 
-                        menggabungkan narasi kuat dengan gameplay yang menantang, dan itulah alasan mengapa saya menilai ini sebagai salah satu game terbaik yang pernah dibuat. Berikut merupakan link pembelian game tersebut.</p>
-                    <a href="https://store.steampowered.com/app/2322010/God_of_War_Ragnark/">Beli di Steam</a>
-                    <table class="table">
-                        <tr>
-                            <th>Minimum</th>
-                            <th>Rekomendasi</th>
-                        </tr>
-                        <tr>
-                            <td>Memory: 16 GB</td>
-                            <td>Memory: 32 GB</td>
-                        </tr>
-                        <tr>
-                            <td>CPU: Intel i5 gen 11th</td>
-                            <td>CPU: Intel i7 gen 13th</td>
-                        </tr>
-                        <tr>
-                            <td>GPU: GTX 1660 super</td>
-                            <td>GPU: RTX 3060</td>
-                        </tr>
-                    </table>
-                </div>
+    <nav class="navbar">
+        <div class="logo">Aditya Game Blog</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#join">Join Me</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="profile-section">
+        <img src="the-wind-rises-1.jpg" alt="Profile Picture" class="profile-pic">
+        <p>Halo, saya Aditya, mahasiswa Teknologi Informasi di Universitas Udayana angkatan 2022. 
+            Saya memiliki minat besar terhadap teknologi, terutama di bidang pengembangan game. Bagi saya, game bukan sekadar sarana hiburan, 
+            tetapi juga merupakan platform yang dapat digunakan untuk belajar, berinovasi, dan menyalurkan kreativitas. Saya percaya bahwa dalam 
+            dunia game, kita bisa menciptakan pengalaman yang mendidik sekaligus menghibur, membangun ide-ide unik, dan mengembangkan keterampilan 
+            yang berharga.</p>
+    </section>
+    <section id="about" class="about-section">
+        <div class="about-content-wrapper">
+            <div class="about-text">
+                <h2>About</h2>
+                <p>
+                   "Blog pribadi ini dibangun dengan semangat yang tumbuh dari pengalaman sebelumnya dalam mengelola channel YouTube bertema game. 
+                   Kehadiran website ini dilandasi oleh keinginan untuk mengembangkan ruang yang lebih komprehensif bagi komunitas pecinta game di berbagai kalangan. 
+                   Website ini tidak hanya sekadar memperluas cakupan konten yang sudah ada di channel YouTube, 
+                   tetapi juga berfungsi sebagai wadah interaktif di mana para penggemar game dapat berkumpul, berdiskusi, 
+                   dan menjalin koneksi dengan sesama pemain. Diharapkan, website ini bisa menjadi tempat untuk menemukan ulasan game mendalam, 
+                   tips dan trik, serta artikel inspiratif yang bisa menambah wawasan dan meningkatkan pengalaman bermain para pengunjung. 
+                   Dengan menyediakan berbagai fitur menarik, seperti forum komunitas dan gamecard interaktif, 
+                   blog ini bertujuan untuk mendorong interaksi aktif dan partisipasi pengguna, sehingga setiap pengunjung 
+                   merasa menjadi bagian dari komunitas yang solid dan penuh semangat. Keseluruhan upaya ini dirancang untuk menciptakan 
+                   sebuah ekosistem yang tidak hanya informatif, tetapi juga menyenangkan dan inklusif, di mana setiap individu bisa merayakan 
+                   kecintaan mereka terhadap dunia game."
+                </p>
             </div>
-
-            <div class="game-item">
-                <h3>2. Black Myth Wukong</h3>
-                <div class="game-content">
-                    <img src="bmw.jpg" alt="Black Myth Wukong">
-                    <p>Black Myth Wukong mengusung kisah klasik Tiongkok "Journey to the West" dengan pendekatan yang memukau. Game ini membawa pemain ke dalam dunia yang penuh dengan makhluk mitologi dan lingkungan yang sangat indah, yang semuanya digambarkan dengan grafik yang menakjubkan. Setiap elemen dari dunia game ini dibuat untuk memberikan pengalaman yang imersif, seolah-olah pemain benar-benar berada di zaman mitologi Tiongkok kuno.
-                        <br><br>
-                        Dalam hal gameplay, Black Myth Wukong menawarkan pertarungan yang cepat dan menantang, dengan berbagai 
-                        kemampuan unik yang dimiliki oleh karakter utama, Sun Wukong. Pemain dapat mengubah bentuk menjadi berbagai makhluk untuk mendapatkan 
-                        kemampuan berbeda, yang membuat setiap pertarungan terasa segar dan menarik. Soundtrack game ini juga sangat mengesankan, membawa suasana yang
-                         dramatis dan epik dalam setiap momen penting di dalam game. Secara keseluruhan, Black Myth Wukong menawarkan pengalaman yang unik dan berbeda
-                          dari game lainnya, dengan kombinasi sempurna antara cerita klasik dan gameplay modern yang penuh aksi. Berikut merupakan link pembelian game 
-                          tersebut.
-                    <a href="https://store.steampowered.com/app/2358720/Black_Myth_Wukong/">Beli di Steam</a>
-                    <table class="table">
-                        <tr>
-                            <th>Minimum</th>
-                            <th>Rekomendasi</th>
-                        </tr>
-                        <tr>
-                            <td>Memory: 16 GB</td>
-                            <td>Memory: 32 GB</td>
-                        </tr>
-                        <tr>
-                            <td>CPU: Intel i5 gen 13th</td>
-                            <td>CPU: Intel i7 gen 13th</td>
-                        </tr>
-                        <tr>
-                            <td>GPU: GTX 2080</td>
-                            <td>GPU: RTX 3070ti</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-
-            <div class="game-item">
-                <h3>3. Assassin's Creed Mirage</h3>
-                <div class="game-content">
-                    <img src="ac.jpg" alt="Assassin Creed Mirage">
-                    <p>Assassin's Creed Mirage membawa kita kembali ke akar stealth klasik yang membuat franchise ini terkenal. Game ini berfokus pada elemen parkour, stealth, dan assassinations yang sangat khas dari seri Assassin's Creed pertama. Pemain diajak untuk merasakan kembali sensasi menjadi seorang assassin yang beroperasi dari bayang-bayang, dengan dunia yang otentik dan kaya budaya. Lokasi-lokasi yang ditampilkan sangat detail dan memberikan nuansa sejarah yang kuat, seolah-olah kita sedang berjalan di kota-kota kuno yang penuh misteri.
-                        <br><br>
-                        Assassin's Creed Mirage menawarkan misi yang lebih fokus pada perencanaan dan strategi, di mana pemain harus memanfaatkan lingkungan untuk menyelesaikan target dengan cara yang paling efisien. Berbeda dengan beberapa game terbaru dalam franchise yang lebih berfokus pada open-world RPG, Mirage menawarkan pendekatan yang lebih linear dan naratif, yang bagi banyak pemain merupakan nostalgia yang menyenangkan. Kembalinya fokus pada stealth gameplay yang kreatif menjadikan Assassin's Creed Mirage salah satu game yang paling saya nikmati dalam beberapa tahun terakhir. Berikut merupakan link pembelian game tersebut.</p>
-                    <a href="https://store.epicgames.com/en-US/p/assassins-creed-mirage">Beli di Epic Games</a>
-                    <table class="table">
-                        <tr>
-                            <th>Minimum</th>
-                            <th>Rekomendasi</th>
-                        </tr>
-                        <tr>
-                            <td>Memory: 8 GB</td>
-                            <td>Memory: 16 GB</td>
-                        </tr>
-                        <tr>
-                            <td>CPU: Intel i5 gen 11th</td>
-                            <td>CPU: Intel i7 gen 13th</td>
-                        </tr>
-                        <tr>
-                            <td>GPU: GTX 1060</td>
-                            <td>GPU: RTX 2070</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-
-            <div class="game-item">
-                <h3>4. Project Zomboid</h3>
-                <div class="game-content">
-                    <img src="pj.jpg" alt="Project Zomboid">
-                    <p>Project Zomboid adalah game survival zombie yang menawarkan pengalaman bertahan hidup paling realistis dan menantang yang pernah ada. Dalam game ini, pemain harus berjuang untuk bertahan hidup di tengah-tengah wabah zombie yang mematikan, dengan banyak aspek yang harus diperhatikan seperti makanan, air, kesehatan mental, dan tentu saja, ancaman dari zombie. Tidak ada tujuan akhir dalam Project Zomboid, yang membuat game ini menjadi sangat menarik karena pemain dapat membuat cerita mereka sendiri tentang bagaimana mereka akan bertahan hidup.
-                        <br><br>
-                        Aspek crafting dan foraging dalam game ini sangat mendetail, di mana pemain dapat mencari bahan-bahan dan membuat alat-alat yang diperlukan untuk bertahan hidup. Setiap keputusan yang diambil memiliki konsekuensi, dan satu kesalahan kecil dapat menyebabkan kematian. Hal inilah yang membuat Project Zomboid sangat menegangkan dan memacu adrenalin. Selain itu, game ini juga memungkinkan pemain untuk bermain secara multiplayer, sehingga mereka dapat bekerja sama dengan teman untuk membangun komunitas dan bertahan hidup bersama, yang menambah kedalaman dan keseruan game ini. Berikut merupakan link pembelian game tersebut.
-                    <a href="https://store.steampowered.com/app/108600/Project_Zomboid/">Beli di Steam</a>
-                    <table class="table">
-                        <tr>
-                            <th>Minimum</th>
-                            <th>Rekomendasi</th>
-                        </tr>
-                        <tr>
-                            <td>Memory: 4 GB</td>
-                            <td>Memory: 8 GB</td>
-                        </tr>
-                        <tr>
-                            <td>CPU: Intel i3 gen 10th</td>
-                            <td>CPU: Intel i7 gen 13th</td>
-                        </tr>
-                        <tr>
-                            <td>GPU: GTX 1060</td>
-                            <td>GPU: RTX 3050</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-
-            <div class="game-item">
-                <h3>5. Minecraft</h3>
-                <div class="game-content">
-                    <img src="mc.jpeg" alt="Minecraft">
-                    <p>Minecraft tetap menjadi favorit karena kebebasan kreativitas yang ditawarkannya. Tidak ada batasan dalam membangun dunia sendiri, dan pemain dapat mengekspresikan imajinasi mereka secara penuh. Dari membangun kastil yang megah hingga menciptakan mesin otomatis yang rumit, Minecraft menyediakan alat untuk menciptakan apapun yang ada dalam imajinasi pemain. Game ini memiliki mode yang beragam, mulai dari survival di mana pemain harus mengumpulkan sumber daya dan melawan monster, hingga creative mode yang memungkinkan pemain untuk membangun tanpa batasan.
-                        <br><br>
-                        Minecraft juga memiliki komunitas yang sangat besar, dengan banyak mod dan konten yang dibuat oleh pemain lain, yang membuat game ini selalu segar dan menarik untuk dimainkan. Kemampuan untuk bermain bersama teman dalam mode multiplayer juga menjadi daya tarik tersendiri, di mana pemain dapat bekerja sama membangun dunia atau berkompetisi dalam berbagai minigame. Game ini benar-benar memberikan kebebasan dan fleksibilitas, menjadikannya salah satu game paling populer dan dicintai oleh berbagai kalangan pemain di seluruh dunia. Berikut merupakan link pembelian game tersebut.</p>
-                    <a href="https://www.minecraft.net/en-us/store/minecraft-deluxe-collection-pc">Beli di Minecraft</a>
-                    <table class="table">
-                        <tr>
-                            <th>Minimum</th>
-                            <th>Rekomendasi</th>
-                        </tr>
-                        <tr>
-                            <td>Memory: 8 GB</td>
-                            <td>Memory: 16 GB</td>
-                        </tr>
-                        <tr>
-                            <td>CPU: Intel i5 gen 10th</td>
-                            <td>CPU: Intel i7 gen 13th</td>
-                        </tr>
-                        <tr>
-                            <td>GPU: Integrated Graphics</td>
-                            <td>GPU: GTX 2080</td>
-                        </tr>
-                    </table>
-                </div>
+            <div class="gif-container">
+                <img src="GIF HORIZON RESOLUTION.gif" alt="Gaming GIF" class="about-gif">
             </div>
         </div>
-    </div>
-    <div id="join-section" class="container">
-        <h2 class="join-title">Ayo Gabung ke Komunitas Game</h2>
-        <a href="index2.html" class="join-button">Ayo Gabung</a>
-    </div>
-    
-    
-    
-    <script>
-        let lastScrollTop = 0;
-        const navbar = document.getElementById('navbar');
+    </section>
+    <section id="games" class="games-section">
+        <h2>GAMES BY GENRE</h2>
+        <p>Game dapat dibagi menjadi berbagai genre, masing-masing dengan karakteristik dan daya tarik unik yang menarik minat para pemain yang berbeda. 
+            Genre-genre ini dirancang untuk menawarkan pengalaman bermain yang bervariasi, mulai dari aksi cepat dan intens di genre *Action* 
+            hingga pemikiran strategis dan perencanaan yang mendalam dalam genre *Strategy*. Ada juga genre yang fokus pada simulasi kehidupan nyata 
+            seperti *Simulator*, yang memungkinkan pemain merasakan pengalaman mengelola bisnis atau mengendarai kendaraan, hingga genre *RPG* 
+            (Role-Playing Game) yang menekankan pada pengembangan karakter dan cerita yang kaya. Selain itu, genre seperti *Horror* menghadirkan 
+            atmosfer yang menegangkan dan menakutkan, sedangkan genre *Relaxed* dirancang untuk pengalaman yang lebih santai dan menenangkan. Genre *Sports* 
+            menarik bagi mereka yang gemar olahraga, sementara *Soulslike* menantang pemain dengan tingkat kesulitan yang tinggi dan gameplay yang menuntut 
+            ketelitian. Genre *Survival* menguji kemampuan pemain dalam bertahan hidup di lingkungan yang penuh tantangan. Setiap genre memiliki ciri khas 
+            yang membuatnya istimewa dan dapat memberikan kepuasan berbeda kepada pemain sesuai dengan preferensi mereka.</p>
+        <div id="game-cards-container" class="game-cards-container-horizontal">
+            <div class="game-card-horizontal" onclick="showGameDetails('action')">
+                <a href="action.html" style="text-decoration: none; color: inherit;">
+                    <img src="action.jpg" alt="Action Genre">
+                    <div class="card-content">
+                        <span class="category">Games | Action</span>
+                        <h3>Action</h3>
+                        <p>Explore high-paced, thrilling action games that test your reflexes and strategy.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="game-card-horizontal" onclick="showGameDetails('fps')">
+                <a href="fps.html" class="game-card-horizontal" style="text-decoration: none; color: inherit;">
+                    <img src="fps.jpg" alt="FPS Genre">
+                    <div class="card-content">
+                        <span class="category">Games | FPS</span>
+                        <h3>FPS</h3>
+                        <p>Dive into immersive, first-person shooter games with realistic graphics and intense gameplay.</p>
+                    </div>
+                </a>                
+            </div>
+            <div class="game-card-horizontal" onclick="showGameDetails('relaxed')">
+                <a href="santai.html" class="game-card-horizontal" style="text-decoration: none; color: inherit;">
+                    <img src="santai.png" alt="Relaxed Genre">
+                    <div class="card-content">
+                        <span class="category">Games | Relaxed</span>
+                        <h3>Relaxed</h3>
+                        <p>Enjoy calm and peaceful games perfect for unwinding and relaxing moments.</p>
+                    </div>
+                </a>                
+            </div>
+            <div class="game-card-horizontal" onclick="showGameDetails('horror')">
+                <a href="horror.html" class="game-card-horizontal" style="text-decoration: none; color: inherit;">
+                    <img src="horror.jpg" alt="Horror Genre">
+                    <div class="card-content">
+                        <span class="category">Games | Horror</span>
+                        <h3>Horror</h3>
+                        <p>Immerse yourself in spine-chilling horror games that keep you on edge.</p>
+                    </div>
+                </a>                
+            </div>
+            <div class="game-card-horizontal" onclick="showGameDetails('simulator')">
+                <a href="simulator.html" class="game-card-horizontal" style="text-decoration: none; color: inherit;">
+                    <img src="simulator.jpg" alt="Simulator Genre">
+                    <div class="card-content">
+                        <span class="category">Games | Simulator</span>
+                        <h3>Simulator</h3>
+                        <p>Experience the most realistic and detailed simulator games available.</p>
+                    </div>
+                </a>                
+            </div>
+            <div class="game-card-horizontal" onclick="showGameDetails('strategy')">
+                <a href="strategi.html" class="game-card-horizontal" style="text-decoration: none; color: inherit;">
+                    <img src="strategi.jpg" alt="Strategy Genre">
+                    <div class="card-content">
+                        <span class="category">Games | Strategy</span>
+                        <h3>Strategy</h3>
+                        <p>Test your wits with games that require careful planning and strategic thinking.</p>
+                    </div>
+                </a>                
+            </div>
+            <div class="game-card-horizontal" onclick="showGameDetails('sport')">
+                <a href="sport.html" class="game-card-horizontal" style="text-decoration: none; color: inherit;">
+                    <img src="sport.jpg" alt="Sport Genre">
+                    <div class="card-content">
+                        <span class="category">Games | Sport</span>
+                        <h3>Sport</h3>
+                        <p>Play exhilarating sports games that bring the excitement of the stadium to your screen.</p>
+                    </div>
+                </a>                
+            </div>
+            <div class="game-card-horizontal" onclick="showGameDetails('rpg')">
+                <a href="rpg.html" class="game-card-horizontal" style="text-decoration: none; color: inherit;">
+                    <img src="RPG.jpg" alt="RPG Genre">
+                    <div class="card-content">
+                        <span class="category">Games | RPG</span>
+                        <h3>RPG</h3>
+                        <p>Embark on epic adventures and create your own story in role-playing games.</p>
+                    </div>
+                </a>                
+            </div>
+            <div class="game-card-horizontal" onclick="showGameDetails('survival')">
+                <a href="survival.html" class="game-card-horizontal" style="text-decoration: none; color: inherit;">
+                    <img src="survival.jpg" alt="Survival Genre">
+                    <div class="card-content">
+                        <span class="category">Games | Survival</span>
+                        <h3>Survival</h3>
+                        <p>Stay alive in harsh environments with limited resources in survival games.</p>
+                    </div>
+                </a>                
+            </div>
+        </div>
+        <div class="scroll-buttons">
+            <button id="scroll-left">&lt;</button>
+            <button id="scroll-right">&gt;</button>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>CONTACT ME</h2>
+        <div class="contact-content">
+            <p class="description">
+                Jangan pernah ragu untuk memanfaatkan fitur "Contact Me" yang telah disediakan di situs ini untuk menghubungiku. 
+                Fitur tersebut dirancang khusus agar memudahkan kamu dalam menyampaikan pertanyaan, memberikan umpan balik, atau 
+                bahkan sekadar menyapa. Aku selalu senang menerima pesan dari pengunjung dan akan berusaha merespons secepat mungkin. 
+                Jadi, apakah kamu memiliki pertanyaan tentang konten yang aku bagikan, ingin berdiskusi lebih lanjut mengenai topik 
+                tertentu, atau ingin memberikan saran, jangan sungkan untuk menggunakan fitur ini sebagai jalur komunikasi langsung.
+            </p>
+            <form action="mailto:youremail@example.com" method="post" enctype="text/plain" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <p id="name-validation-message" class="validation-message"></p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <p id="email-validation-message" class="validation-message"></p>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <p id="message-validation-message" class="validation-message"></p>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <section id="join" class="join-section">
+       <!-- Modal untuk form pendaftaran -->
+<div id="join-form-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Gabung ke Komunitas Game</h2>
+        <form id="join-us-form">
+            <label for="full-name">Nama Lengkap:</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Masukkan nama lengkap Anda" required>
+            <p id="full-name-validation-message" class="validation-message"></p>
 
-        window.addEventListener('scroll', () => {
-            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            if (scrollTop > lastScrollTop) {
-                navbar.classList.add('hidden');
-            } else {
-                navbar.classList.remove('hidden');
-            }
-            lastScrollTop = scrollTop;
-        });
-    </script>
+            <label for="email-join">Email:</label>
+            <input type="email" id="email-join" name="email-join" placeholder="Masukkan email Anda" required>
+            <p id="email-join-validation-message" class="validation-message"></p>
+
+            <label for="phone-number">Nomor Telepon:</label>
+            <input type="tel" id="phone-number" name="phone-number" placeholder="Masukkan nomor telepon Anda" required>
+            <p id="phone-number-validation-message" class="validation-message"></p>
+
+            <label for="country">Negara:</label>
+            <select id="country" name="country" required>
+                <option value="">Pilih negara</option>
+                <!-- Tambahkan opsi negara jika diperlukan -->
+            </select>
+            <p id="country-validation-message" class="validation-message"></p>
+
+            <button type="submit">Daftar</button>
+        </form>
+    </div>
+</div>
+
+        <h2>JOIN US</h2>
+        <p class="join-description">
+            Ayo bergabung bersama komunitas yang memiliki pandangan, minat, 
+            dan nilai-nilai yang sejalan dengan Anda. Di komunitas ini, Anda akan menemukan orang-orang yang berbagi 
+            ketertarikan yang sama, siap berbagi pengalaman, pengetahuan, dan wawasan yang bermanfaat. Tidak hanya itu, 
+            komunitas ini juga menjadi tempat yang tepat untuk berdiskusi, berkolaborasi, dan saling mendukung dalam mencapai tujuan bersama. 
+            Dengan bergabung, Anda tidak hanya menjadi bagian dari kelompok yang berpikiran sama, tetapi juga membuka
+            kesempatan untuk membangun jaringan, mengembangkan keterampilan, serta memperoleh inspirasi dari sesama anggota yang aktif dan antusias.
+        </p>
+        <button class="join-button">Join Us</button>
+    </section>
+     <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-

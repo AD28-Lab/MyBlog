@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible=IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Action Games</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Aditya Game Blog</div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#games">Games</a></li>
+            <li><a href="index.html#contact">Contact Me</a></li>
+            <li><a href="index.html#join">Join Me</a></li>
+        </ul>
+    </nav>
+    
+    <header class="hero-section">
+        <h1>Top 3 RPG Games</h1>
+    </header>
+    <main class="article-content">
+        <section class="game-list">
+            <div class="game-entry">
+                <h2>Final Fantasy VII Rebirth</h2>
+                <img src="rpg1.jpeg" alt="Game 1 Image">
+                <p>Final Fantasy VII Rebirth adalah bagian kedua dari proyek remake Final Fantasy VII, melanjutkan petualangan Cloud Strife dan kawan-kawan di luar kota Midgar. Game ini menawarkan grafis yang memukau, sistem pertarungan yang dinamis, dan cerita yang lebih mendalam dibandingkan versi aslinya. Pemain dapat menjelajahi dunia yang lebih luas dengan berbagai aktivitas dan misi sampingan yang menarik.</p>
+            </div>
+            <div class="game-entry">
+                <h2>Dragon's Dogma 2</h2>
+                <img src="rpg2.jpeg" alt="Game 2 Image">
+                <p>Dragon's Dogma 2 adalah sekuel dari game action RPG populer yang dirilis oleh Capcom. Game ini menawarkan dunia terbuka yang luas dengan sistem pertarungan yang mendalam dan mekanika 'pawn' yang unik, di mana pemain dapat merekrut dan melatih karakter AI untuk membantu dalam pertempuran. Dengan peningkatan grafis dan gameplay yang lebih halus, Dragon's Dogma 2 memberikan pengalaman RPG yang mendalam dan menantang. </p>
+            </div>
+            <div class="game-entry">
+                <h2>Like a Dragon: Infinite Wealth</h2>
+                <img src="rpg3.jpeg" alt="Game 3 Image">
+                <p>Like a Dragon: Infinite Wealth adalah entri terbaru dalam seri Yakuza, yang dikenal dengan cerita mendalam dan gameplay yang kaya. Game ini melanjutkan kisah Ichiban Kasuga dengan latar belakang baru di Hawaii, menawarkan kombinasi unik antara drama kriminal dan elemen RPG tradisional. Dengan sistem pertarungan turn-based yang ditingkatkan dan berbagai aktivitas sampingan yang menarik, game ini menjadi salah satu RPG terbaik tahun 2024.</p>
+        </section>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.querySelector('.navbar');
+    
+            // Tambahkan event listener untuk toggle
+            document.querySelector('.toggle-button').addEventListener('click', function() {
+                navbar.classList.toggle('toggle-green');
+    
+                // Ubah warna teks di navbar saat di-toggle
+                document.querySelectorAll('.nav-links a').forEach(link => {
+                    link.classList.toggle('toggle-green');
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>

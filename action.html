@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible=IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 3 Action Games</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Aditya Game Blog</div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#games">Games</a></li>
+            <li><a href="index.html#contact">Contact Me</a></li>
+            <li><a href="index.html#join">Join Me</a></li>
+        </ul>
+    </nav>
+    
+    <header class="hero-section">
+        <h1>Top 3 Action Games</h1>
+    </header>
+    <main class="article-content">
+        <section class="game-list">
+            <div class="game-entry">
+                <h2>Granblue Fantasy: Relink</h2>
+                <img src="action1.png" alt="Game 1 Image">
+                <p>Dikembangkan oleh Cygames, Granblue Fantasy: Relink adalah game action RPG yang dirilis pada 1 Februari 2024. Game ini menawarkan dunia fantasi yang luas dengan grafis memukau dan sistem pertarungan yang dinamis. Pemain dapat menjelajahi berbagai area, menghadapi musuh yang menantang, dan bekerja sama dengan karakter lain untuk menyelesaikan misi. Kombinasi antara cerita yang mendalam dan gameplay yang seru menjadikan game ini salah satu yang terbaik di genre-nya.</p>
+            </div>
+            <div class="game-entry">
+                <h2>Remnant 2</h2>
+                <img src="action2.jpeg" alt="Game 2 Image">
+                <p>Remnant 2, dirilis pada 25 Juli 2023 oleh Gunfire Games, adalah sekuel dari Remnant: From the Ashes. Game ini menggabungkan elemen shooter dengan mekanik RPG, memungkinkan pemain untuk menghadapi dunia yang dihasilkan secara prosedural dengan berbagai musuh dan tantangan unik. Fitur co-op memungkinkan hingga tiga pemain bekerja sama, menambah kedalaman strategi dalam pertarungan. Dengan peningkatan grafis dan gameplay yang lebih halus, Remnant 2 menawarkan pengalaman bermain yang mendalam dan menantang.</p>
+            </div>
+            <div class="game-entry">
+                <h2>Armored Core VI: Fires of Rubicon</h2>
+                <img src="action3.jpg" alt="Game 3 Image">
+                <p>Dikembangkan oleh FromSoftware, Armored Core VI: Fires of Rubicon dirilis pada 24 Agustus 2023. Game ini menandai kembalinya seri Armored Core dengan fokus pada pertempuran mecha yang intens. Pemain dapat menyesuaikan mecha mereka dengan berbagai senjata dan komponen, memungkinkan strategi yang beragam dalam pertempuran. Dengan grafis yang ditingkatkan dan gameplay yang lebih halus, game ini menawarkan pengalaman aksi yang mendalam bagi penggemar mecha dan game aksi.</p>
+            </div>
+        </section>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.querySelector('.navbar');
+    
+            // Tambahkan event listener untuk toggle
+            document.querySelector('.toggle-button').addEventListener('click', function() {
+                navbar.classList.toggle('toggle-green');
+    
+                // Ubah warna teks di navbar saat di-toggle
+                document.querySelectorAll('.nav-links a').forEach(link => {
+                    link.classList.toggle('toggle-green');
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>
